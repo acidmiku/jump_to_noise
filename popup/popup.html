@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Jump to Noise</h1>
+    <p class="description">Press the hotkey to jump to the tab currently playing audio.</p>
+
+    <div class="shortcut-section">
+      <label for="shortcut-input">Shortcut</label>
+      <div class="shortcut-row">
+        <input type="text" id="shortcut-input" readonly placeholder="Press keys...">
+        <button id="record-btn">Record</button>
+      </div>
+      <p class="current-shortcut">Current: <span id="current-shortcut">Alt+Shift+M</span></p>
+    </div>
+
+    <div class="status" id="status"></div>
+
+    <div class="info">
+      <p>If multiple tabs are playing, subsequent presses cycle through them.</p>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

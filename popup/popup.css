@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  width: 320px;
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.description {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.shortcut-section {
+  margin-bottom: 16px;
+}
+
+.shortcut-section label {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #bbb;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.shortcut-row {
+  display: flex;
+  gap: 8px;
+}
+
+#shortcut-input {
+  flex: 1;
+  padding: 10px 12px;
+  background: #16213e;
+  border: 1px solid #334;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  font-family: monospace;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+#shortcut-input:focus {
+  border-color: #e94560;
+}
+
+#shortcut-input.recording {
+  border-color: #e94560;
+  background: #1a1a3e;
+}
+
+#record-btn {
+  padding: 10px 16px;
+  background: #e94560;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#record-btn:hover {
+  background: #c73e54;
+}
+
+#record-btn.recording {
+  background: #53a653;
+}
+
+.current-shortcut {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #777;
+}
+
+#current-shortcut {
+  color: #e94560;
+  font-family: monospace;
+}
+
+.status {
+  min-height: 20px;
+  font-size: 12px;
+  margin-bottom: 12px;
+  transition: opacity 0.3s;
+}
+
+.status.success {
+  color: #53a653;
+}
+
+.status.error {
+  color: #e94560;
+}
+
+.info {
+  padding-top: 12px;
+  border-top: 1px solid #334;
+}
+
+.info p {
+  font-size: 11px;
+  color: #666;
+  line-height: 1.5;
+}
