@@ -6,15 +6,15 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "jump-to-noise@local",
-      "strict_min_version": "79.0"
+      "strict_min_version": "79.0",
+      "data_collection_permissions": {
+        "personal_data_collected": false,
+        "technical_data_collected": false
+      }
     },
     "gecko_android": {
-      "strict_min_version": "79.0"
+      "strict_min_version": "113.0"
     }
-  },
-  "data_collection_permissions": {
-    "personal_data_collected": false,
-    "technical_data_collected": false
   },
   "permissions": [
     "tabs"
