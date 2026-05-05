@@ -6,8 +6,6 @@ Firefox extension that jumps to the tab currently playing audio. If multiple tab
 
 Download `jump_to_noise.xpi` from [Releases](https://github.com/acidmiku/jump_to_noise/releases) and open it in Firefox.
 
-> **Note:** Firefox requires extensions to be signed for permanent installation. To install unsigned XPIs, use Firefox Developer Edition / ESR / Nightly and set `xpinstall.signatures.required` to `false` in `about:config`.
-
 ## Usage
 
 - Press `Alt+Shift+M` (default) to jump to the playing tab
