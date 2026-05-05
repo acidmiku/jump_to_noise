@@ -8,8 +8,7 @@
       "id": "jump-to-noise@local",
       "strict_min_version": "79.0",
       "data_collection_permissions": {
-        "personal_data_collected": false,
-        "technical_data_collected": false
+        "required": ["none"]
       }
     },
     "gecko_android": {
